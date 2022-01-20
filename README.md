@@ -24,10 +24,16 @@ Install:
 npm install
 ```
 
+Build:
+
+```shell
+npm run build
+```
+
 Run:
 
 ```shell
-node index.js
+node dist/index.js
 ```
 
 ## Testing
