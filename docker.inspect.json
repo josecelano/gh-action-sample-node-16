@@ -1,0 +1,103 @@
+{
+    "Id": "sha256:6f007ebe54bbcdd9e49dbf461bf5503f0f301a54880387a515e2ca192f2f564e",
+    "RepoTags": [
+        "catthehacker/ubuntu:act-latest"
+    ],
+    "RepoDigests": [
+        "catthehacker/ubuntu@sha256:b760bdffae1d8bc4822f0b429ba720d56556d94cc03a2b0e2f2062b67e832e19"
+    ],
+    "Parent": "",
+    "Comment": "buildkit.dockerfile.v0",
+    "Created": "2022-01-08T12:36:50.40430502Z",
+    "Container": "",
+    "ContainerConfig": {
+        "Hostname": "",
+        "Domainname": "",
+        "User": "",
+        "AttachStdin": false,
+        "AttachStdout": false,
+        "AttachStderr": false,
+        "Tty": false,
+        "OpenStdin": false,
+        "StdinOnce": false,
+        "Env": null,
+        "Cmd": null,
+        "Image": "",
+        "Volumes": null,
+        "WorkingDir": "",
+        "Entrypoint": null,
+        "OnBuild": null,
+        "Labels": null
+    },
+    "DockerVersion": "",
+    "Author": "",
+    "Config": {
+        "Hostname": "",
+        "Domainname": "",
+        "User": "root",
+        "AttachStdin": false,
+        "AttachStdout": false,
+        "AttachStderr": false,
+        "Tty": false,
+        "OpenStdin": false,
+        "StdinOnce": false,
+        "Env": [
+            "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "DEBIAN_FRONTEND=noninteractive"
+        ],
+        "Cmd": [
+            "bash"
+        ],
+        "Image": "",
+        "Volumes": null,
+        "WorkingDir": "",
+        "Entrypoint": null,
+        "OnBuild": null,
+        "Labels": {
+            "org.opencontainers.image.authors": "me@hackerc.at",
+            "org.opencontainers.image.revision": "31d391457ef63737a7bb63b6ef45f4dea27dbbab",
+            "org.opencontainers.image.source": "https://github.com/catthehacker/docker_images",
+            "org.opencontainers.image.title": "act-latest-amd64",
+            "org.opencontainers.image.url": "https://github.com/catthehacker/docker_images/tree/31d391457ef63737a7bb63b6ef45f4dea27dbbab/linux/ubuntu/act/",
+            "org.opencontainers.image.vendor": "catthehacker",
+            "org.opencontainers.image.version": "20220108"
+        },
+        "Shell": [
+            "/bin/bash",
+            "--noprofile",
+            "--norc",
+            "-e",
+            "-o",
+            "pipefail",
+            "-c"
+        ]
+    },
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Size": 999047004,
+    "VirtualSize": 999047004,
+    "GraphDriver": {
+        "Data": {
+            "LowerDir": "/var/lib/docker/overlay2/018951674a6d419d5410f173e8eacd1882929ff61f0e1c97e0aa8b3169e9f5ec/diff:/var/lib/docker/overlay2/44886e4e6d2e170166abc438782978a1117a83f8ddbdbb70baf936a1939d2589/diff:/var/lib/docker/overlay2/92933b47c510416848c741ec2a343192d96a44b18d10d0a2b9a823cdceb8a279/diff:/var/lib/docker/overlay2/8150b3f5918f682f63804583a59f5e16f4f68f143c49ac9f2cfb03332acf1d0e/diff:/var/lib/docker/overlay2/b369c9cc721397ecdb34c1f555be0b7a96e57eb946993fe65307e3cda2927428/diff:/var/lib/docker/overlay2/76c4c043b07e515fe99896a68e15febda578754efe508b9ffa2de83c07b069f1/diff",
+            "MergedDir": "/var/lib/docker/overlay2/25023ad2a53c3682b410482fdf30db8df50836104977ae02d779c15703c79334/merged",
+            "UpperDir": "/var/lib/docker/overlay2/25023ad2a53c3682b410482fdf30db8df50836104977ae02d779c15703c79334/diff",
+            "WorkDir": "/var/lib/docker/overlay2/25023ad2a53c3682b410482fdf30db8df50836104977ae02d779c15703c79334/work"
+        },
+        "Name": "overlay2"
+    },
+    "RootFS": {
+        "Type": "layers",
+        "Layers": [
+            "sha256:0eba131dffd015134cb310c284b776c1e44d330146cd2f0e30c4e464d0b76d24",
+            "sha256:66448d9de3799c45c003247d20008908f8daf403ae30702f89d523563738c3fd",
+            "sha256:f31380470b04cb174f466ce7e0e9279b14cb9823a9372cfe643b09f439ed4ac6",
+            "sha256:89b03320391c2c340abaf653a26cc618e3c9a4e197e0804a7d958f4895c5a6bc",
+            "sha256:422710981ea1af373a52006e2c08f7f46e04bc74ad9720aeb91b3be8314955c4",
+            "sha256:a0fb8fcfe934a74879c24aab3a47a66b5921b980f152fe89f2f69381e24e7590",
+            "sha256:ae2abdf027d256dbc54beef25519276c3e7f1f7bfdad55aaa34f93d65f53ed73"
+        ]
+    },
+    "Metadata": {
+        "LastTagTime": "0001-01-01T00:00:00Z"
+    }
+}
